@@ -1,20 +1,24 @@
 # click-automatizer
 Used for repetitive actions which consist of mouse operations
 
-# Installation
+## Disclaimer
+Works only on Windows machines since it uses `win32api` and was tested only on Python 3.10. 
+**Use responsibly and at your own risk**, if you get banned form websites for automating clicks or if something wrong is clicked I am not responsible.
+
+## Installation
 ```
 pip install -r requirements.txt
 ```
 
-# Run
+## Run
 ```
 python click-automatizer
 ```
 
-# Warning
+## Warning
 Be careful with setting timeout to 0 between clicks, this is reason why safety killswitch was introduced. If your mouse goes rouge, you can always press `ESC` key to safely exit the program.
 
-# Inputs
+## Inputs
 
 `How many mouse positions do you have before repetition:` - input is integer (a whole number). Here you select the amount of positions which you need to be clicked before repetition. Eg. if you want to automatize downloading photos from messenger, you would input `2` because you need first click for "Download" button, and second click for "next photo". Those two clicks will repeat.
 
