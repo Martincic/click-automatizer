@@ -3,6 +3,7 @@ Used for repetitive actions which consist of mouse operations
 
 ## Disclaimer
 Works only on Windows machines since it uses `win32api` and was tested only on Python 3.10. 
+
 **Use responsibly and at your own risk**, if you get banned form websites for automating clicks or if something wrong is clicked I am not responsible.
 
 ## Installation
