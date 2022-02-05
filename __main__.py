@@ -1,5 +1,6 @@
 import bin.calibrator as calibrator
 import bin.clicker as clicker
+import os
 
 print("\nProgram will output your mouse coordinates every %d \n" % (calibrator.TIME_TO_PRINT)+
 "seconds. Once you are satisfied with position, press ENTER key to set printed \n" +
