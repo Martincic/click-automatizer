@@ -1,6 +1,12 @@
 # click-automatizer
 Used for repetitive actions which consist of mouse operations
 
+# Preview
+![Preview of the program](https://raw.githubusercontent.com/Martincic/click-automatizer/main/usage.gif)
+
+_Mouse was not recorded but for the first position it was hovering over "Download" and then_ `ENTER` _was pressed, second position was over_ `>` _(next) button, and_ `ENTER` _was pressed._
+
+
 ## Disclaimer
 Works only on Windows machines since it uses `win32api` and was tested only on Python 3.10. 
 
