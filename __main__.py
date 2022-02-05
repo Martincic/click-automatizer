@@ -15,3 +15,4 @@ repeat = input("How many times do you want to repeat the combination? (0 for ind
 clicker.clickPositions(mouse_positions, repeat, timeout)
 
 print("You're all clicked up!")
+os._exit(1)
