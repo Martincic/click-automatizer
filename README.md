@@ -30,3 +30,16 @@ After this step, the program will output the position of your mouse. Do not left
 `How many times do you want to repeat the combination? (0 for indefinite):` - input is integer (a whole number).
 
 From here, the program will start clicking until it finishes or until terminated with `ESC`.
+
+# Note
+
+If you're scraping data through internet browser, there can be be up to 20% duplicates due to buggy websites. This PowerShell command will get rid of all duplicate files in the directory. 
+
+```Get-ChildItem $Path | Where{$_.Name -Match "(\()[0-9]{1,2}(\))"} | Remove-Item```
+
+It is targeting any file containing `(x)` such as `download (1).jpeg`, `download(2).jpeg`. 
+
+# TODO 
+- Create pattern
+- Save pattern
+- Run pattern
